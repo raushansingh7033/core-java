@@ -1,0 +1,92 @@
+OOps stands for object oriented programming system which is a methodology to develop and design the programming using class and object 
+
+//Advantage
+Modularity 
+reusability
+flexibility
+readability
+
+//features
+class
+object 
+inheritance
+polymorphism
+encapsulation
+abstraction
+
+// class
+a class is a blueprint or template or modal for creating objects 
+it defines the structure and behavior of objects that will be instantiated from it
+
+// rules
+a class can have only public and default (no modifier) access specifier
+it can be either abstract final or normal class
+it must have the class keyword
+it may optionally extend only one parent class. by Default , it extend object class
+
+syntax
+class class_name{
+  field
+  constructor
+  method
+}
+
+// object
+an object is a real world entity some real objects are ball fan car etc 
+an object represents the class and the consists of properties and behavior  
+
+// syntax
+className variable_name=new ClassName()
+ example
+
+
+// method 
+method is similar to a function defined in other programming languages.
+method describes behavior of an object. a method is collection of statements that are grouped together to perform operation.
+
+return-type methodName(arg1,arg2....argn)
+{
+  // body of method
+}
+
+// example 
+// wap to create using 
+
+
+// constructor
+a constructor is a special type of method is used to initialize objects of a class. constructor are called when an object of class is created
+
+// some key points
+constructor name: a constructor has the name as the class name
+no-return type: constructors do not have return type not even void
+they are automatically called when an object of class is created and do not return any value.
+
+// type
+default constructor
+No-argument constructor
+Parametrized constructor
+constructor overloading
+copy constructor
+private constructor 
+
+// A default constructor is automatically provided by the java compiler when no other constructor are defined within the class. it also sometime called a no argument constructor because it takes no arguments or parameters
+
+
+ // no argument constructor
+ no argument constructor is constructor in a class takes no parameters
+ class
+
+ // parametrized constructor
+  A parametrized constructor is constructor that takes one or more parameters when creating instance of a class 
+
+  // constructor overloading
+  constructor overloading is technique or having more than constructor with different parameter in same class
+
+
+  // copy constructor
+  copy constructor create new object by using value of existing object
+  copy constructor are not not built into the java languages like they are in some other languages like c++, but you can create your own custom copy constructor by providing a constructor that takes an instances of the same class as a parameter 
+
+// private constructor
+a private constructor is constructor declared with private access modifier
+this means the constructor can only be accessed within the same class and cannot be used by other class
