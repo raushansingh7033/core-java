@@ -1,0 +1,25 @@
+interface is a collection of abstract methods. it is similar to a class but differs in that it doesn't  have any implementation for its methods . all methods decalred in an interface implicitly public , abstract and without body .
+additionally interface can contains constants , default methods and static methods . there can be only abstract methods in java interface , not method body
+
+it can have only abstract methods and static fields.
+since java 8 interface can have default and static methods and from jva 9 it can have private methods as well
+
+
+Advantage of interface
+it support multiple inheritance
+it helps to achieve abstraction
+it can have used to achieve loose coupling
+
+interface interafce_name{
+  // fields
+  // abstract / private / default methods
+}
+
+
+interface keypoints
+method inside interface must not be static,final,native or strictfp
+all variables declared inside interface are implicitly public static and final
+all methods declared inside interface are implicitly public and abstract even you don't use public or abstract keyword
+interface can extend one or more other interface
+interface can not implement a class
+interface can be nested inside another interface
