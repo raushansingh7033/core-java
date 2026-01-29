@@ -1,0 +1,29 @@
+inheritance :
+inheritance is fundamentals concept that allows a class to inherit the properties and behavior of another class
+
+types
+single inheritance
+multilevel inheritance
+Hierarchical inheritance
+
+// single inheritance
+when a class extend another class then this is called single inheritance
+when a derived class or subclass inherits from only one base class or super class then it is called single inheritance
+
+syntax
+class subClass extends superClass{
+
+}
+
+this and super keyword in java
+this keyword : this keyword is a reference variable that refers to the current object. it can be used to refer the current instance of the class in which it appears . the "this" keyword is particularly useful when there is a need to disambiguate instance variables from local variables or parameters with same name
+
+super keyword : super keyword is used to refer to the immediate parent class object . it is commonly used in the context of inheritance to access members of the super class
+
+multilevel Inheritance
+When a class extends to another class that also extends some other class then this is called multilevel inheritance
+
+multilevel inheritance refers ti a situation where a class extends another class, and then another class extends the derived class
+
+Hierarchical Inheritance
+When a class is extended by two or more classes then it is called hierarchical inheritance

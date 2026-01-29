@@ -1,0 +1,28 @@
+Abstraction is the process of hiding implementation details and exposing only essential features to the user, focusing on what the object does rather than how it does it.
+
+there are two ways to achieve abstraction in java
+Abstract class(0 to 100%)
+Interface(100%)
+
+abstract class
+a class which is declared using abstract keyword known as abstract class
+an abstract class may or may not have abstract methods. we cannot create object of abstract class
+
+it is used to achieve abstraction but it does not provide 100% abstraction beacause it can have concrete methods
+
+it is used to achieve abstraction but it does not provide 100% abstraction because it can have concrete methods
+
+abstraction class provides partial abstraction and interface provides complete abstraction
+
+- an abstract class is a class that is declared with an abstract keyword
+- an abstract method is a method that is declared without implementation
+- an abstract class may or may not have all abstract methods some of them can concrete methods
+
+- a method-defined abstract must always be redefined in the subclass, thus making overriding compulsory or making the subclass itself abstract.
+- any class that contains one or more abstract methods must also be declared with an abstract keyword.
+- there can be no objects of an abstract class. that is , an abstract class can not be directly instantiated with the new operator.
+- an abstract class can have parameterized constructors and the default constructor is always present in an abstract class
+
+abstract method
+a method that are decalred without any body within an abstract class are called abstract method . the method body will be defined by its subclass
+abstract method can never be final and static

@@ -1,0 +1,12 @@
+Encapsulation is achieved through the use of access modifiers and getter / setter methods
+
+Encapsulation is an OOP concept that wraps data and methods into a single unit (class) and restricts direct access to the data using access modifiers, providing data security and controlled access
+
+Encapsulation → Hides data
+
+Abstraction → Hides implementation
+
+encapsulation in java can be achieved by
+
+1. Declaring the variables of a class as private
+2. providing public setter and getter methods to modify and view the variables
