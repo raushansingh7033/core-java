@@ -4,12 +4,13 @@ Strings are imutable meaning their values cannot be changed once they created wh
 String is an object that represents sequnce of characters in java .
 string is representing by string class which is locatd into java.lang package string ojects are immutable that means once a string object is created it cannot be changed
 
-there are two way to create object in string 
-1. using a string literal 
- String literal is simple string enclosed in double quotes " " a string literal is treated as string object
+there are two way to create object in string
+
+1. using a string literal
+   String literal is simple string enclosed in double quotes " " a string literal is treated as string object
 
 2. using new keyword
-we can create a new string object using new operator that allocated memory for the object
+   we can create a new string object using new operator that allocated memory for the object
 
 Note : Each time we create a string litral,jvm checks the string pool first if the string literal already exists in the pool a refrence to the pool instance is returned
 if string does not exist in the pool a new string object is created and is placed in the pool
@@ -31,7 +32,7 @@ System.out.println(b) // true
 
 # == operator
 
-The double equal (==) operator compares two object refreence to check whether they refer to same instance . this also will return true on successful match else return false
+The double equal (==) operator compares two object reference to check whether they refer to same instance . this also will return true on successful match else return false
 it is used reference comparison or address comparison (both objects are pointing to the same memory location)
 
 String s1="Raushan"
@@ -157,6 +158,7 @@ System.out.println(java.substring(4,8)); //ve j
 ---
 
 # toLowerCase()
+
 this method is used to convert all the characters in a given string to lowercase
 syntax
 String toLowerCase()
@@ -233,9 +235,59 @@ String lname="Singh"
 System.out.println(String.join(":",fname,lname))
 
 # startsWith() method
+
 String startsWith()
 String startsWith() is a string method in java. it is used to check wether the given string starts with given prefix or not . it returns true when prefix matches the string else it returns false;
 
 example
 String name="Raushan Singh"
 boolean b=name.startWith("Raushan");
+
+StringBuffer Class:
+StringBuffer is a class which is belongs to the java.lang package .
+it is used to create and manipulate mutable strings.
+StringBuffer class is similar to String class , but it provide to modify the contents of the string without creating a new object
+
+it is similar to string class both are used to create string but stringBuffer object can be changed so stringBuffer class is used when we have to make lot of modificaions to our string. it also thread safe that is multiple threads can not access it simulatneously
+
+StrinBuffer defines 4 constructors
+StringBuffer() : it creates an empty string buffer and reverses space for 16 charcters .
+StringBuffer(int size): it creates an empty string and takes an integer argument to set capacity of the buffer
+StringBuffer(String str) : it creates a stringBuffer object from the specified string
+StringBuffer(charSequence[] ch): it creates a stringBuffer object from the charsequence array
+
+1. append();
+   this method is used to conatenate string representation of any type of a data to he end of current stringBuffeer object
+   append() methods has several overloaded forms
+   StringBuffer append(String str)
+   StringBuffer append(int n)
+   StringBuffer append(Object obj)
+
+2. insert() method
+this method inserts one string into another
+StringBuffer insert(int index,String str);
+StringBuffer insert(int index,int num)
+StringBuffer insert(int index,Object obj)
+
+3. reverse()
+this method revreses the charcters within a stringBuffer object
+
+4. replace()
+this method replcaes the string from specified index to the end index
+5. capacity()
+this method returns the current capacity of stringBuffer object
+if the aregument of the capacity() method is less than the existing capacity then will b no change in existing capacity
+if the arguemnt of the capacity is greatet than the exsisting capcaity then ther will bw change in the current capacity using following rule : newCapcity=(oldCapcity\*2 )+2
+
+delete() method
+this method is used to remove a sequence of charcters from the stringBuffer object
+this is delete() method has two oveloadeded method forms
+delete(int start ,int end) this method removes the characters in a substring of the stringBuffer object the subsstring begins at the specified start indes and extends to character at index end-1
+deleteCharAt(int index)
+this method removes rhe character at the specified index from the stringbuffer
+
+subsequence() method
+subsequnece() this method returns a sbusequence based on the given start and end indeexes the subsequence method returns a charsequence that represents a part of orignal stringBuffer
+Note charSequence is an interface implemented by both String and StringBuffer
+syntax
+public CharSequnce subSequnece(int start,int end)
