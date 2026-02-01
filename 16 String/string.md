@@ -1,5 +1,5 @@
 A String is an object that represents a sequence of characters. the string class in java is part of the java.lang package and is widely used in java programming for handling text data.
-Strings are imutable meaning their values cannot be changed once they created when you modify a string a new String object is created
+Strings are immutable meaning their values cannot be changed once they created when you modify a string a new String object is created
 
 String is an object that represents sequnce of characters in java .
 string is representing by string class which is locatd into java.lang package string ojects are immutable that means once a string object is created it cannot be changed
@@ -243,7 +243,8 @@ example
 String name="Raushan Singh"
 boolean b=name.startWith("Raushan");
 
-StringBuffer Class:
+# StringBuffer Class:
+
 StringBuffer is a class which is belongs to the java.lang package .
 it is used to create and manipulate mutable strings.
 StringBuffer class is similar to String class , but it provide to modify the contents of the string without creating a new object
@@ -264,30 +265,90 @@ StringBuffer(charSequence[] ch): it creates a stringBuffer object from the chars
    StringBuffer append(Object obj)
 
 2. insert() method
-this method inserts one string into another
-StringBuffer insert(int index,String str);
-StringBuffer insert(int index,int num)
-StringBuffer insert(int index,Object obj)
+   this method inserts one string into another
+   StringBuffer insert(int index,String str);
+   StringBuffer insert(int index,int num)
+   StringBuffer insert(int index,Object obj)
 
 3. reverse()
-this method revreses the charcters within a stringBuffer object
+   this method revreses the charcters within a stringBuffer object
 
 4. replace()
-this method replcaes the string from specified index to the end index
+   this method replcaes the string from specified index to the end index
 5. capacity()
-this method returns the current capacity of stringBuffer object
-if the aregument of the capacity() method is less than the existing capacity then will b no change in existing capacity
-if the arguemnt of the capacity is greatet than the exsisting capcaity then ther will bw change in the current capacity using following rule : newCapcity=(oldCapcity\*2 )+2
+   this method returns the current capacity of stringBuffer object
+   if the aregument of the capacity() method is less than the existing capacity then will b no change in existing capacity
+   if the arguemnt of the capacity is greatet than the exsisting capcaity then ther will bw change in the current capacity using following rule : newCapcity=(oldCapcity\*2 )+2
 
-delete() method
-this method is used to remove a sequence of charcters from the stringBuffer object
-this is delete() method has two oveloadeded method forms
-delete(int start ,int end) this method removes the characters in a substring of the stringBuffer object the subsstring begins at the specified start indes and extends to character at index end-1
-deleteCharAt(int index)
-this method removes rhe character at the specified index from the stringbuffer
+6. delete() method
+   this method is used to remove a sequence of charcters from the stringBuffer object
+   this is delete() method has two oveloadeded method forms
+   delete(int start ,int end) this method removes the characters in a substring of the stringBuffer object the subsstring begins at the specified start indes and extends to character at index end-1
+   deleteCharAt(int index)
+   this method removes rhe character at the specified index from the stringbuffer
 
-subsequence() method
-subsequnece() this method returns a sbusequence based on the given start and end indeexes the subsequence method returns a charsequence that represents a part of orignal stringBuffer
-Note charSequence is an interface implemented by both String and StringBuffer
-syntax
-public CharSequnce subSequnece(int start,int end)
+7. subsequence() method
+   subsequnece() this method returns a sbusequence based on the given start and end indeexes the subsequence method returns a charsequence that represents a part of orignal stringBuffer
+   Note charSequence is an interface implemented by both String and StringBuffer
+   syntax
+   public CharSequnce subSequnece(int start,int end)
+
+8. substring() method :
+   substring method return a substring of the original string, based on a beginning index and an end index
+   public String substring(int start)
+   public String substring(int start,int end)
+
+9. setCharAt() method
+   this method is used to add / insert the character at the specified index in a stringBuffer object
+   public void setCharAt(int index,char ch)
+
+# StringBuilder
+
+StringBuilder class:
+StringBuilder class is used to create string object that is mutable which means it can be changed after it is created
+StringBuilder class is same as StringBuffer class except or one important differnce that is not synchronized which means it is not thread safe.
+StringBuffer class and StringBuilder class both are used to create mutable string object but if synchronization is not required then it is recommned to use stringBuilder class
+
+StringBuilder Constructors
+StringBuilder()
+StringBuilder(int size)
+StringBuilder(String str)
+StringBuilder (CharSequnce seq);
+
+public int length()
+public int capacity()
+public StringBuilder append()
+public StringBuilder insert()
+reverse()
+delete()
+deleteCharAt()
+replace()
+ensureCapacity()
+charAt()
+indexOf()
+lastIndexof()
+substring()
+charsequnce subSequnece()
+String toString()
+void setCharAt()
+void getChars(int ,int ,char[],int)
+
+StringBuffer class
+
+1. StringBuffer is predefined final class in java
+2. StringBuffer class is introduced in jdk version 1.0
+3. StringBuffer stored in heap memory
+4. mutable StringBuffer object
+5. occupy less memory
+6. StrinBuffer class is Synchronized
+7. it is thread safe
+
+# StringBuilder
+
+1. StringBuilder is predefined final class in java
+2. StringBuilder class is introduced in jdk version 1.5
+3. StringBuilder stored in heap
+4. mutable StringBuilder object
+5. occupy less momory
+6. StringBuilder class is not synchronized
+7. it is not thread safe

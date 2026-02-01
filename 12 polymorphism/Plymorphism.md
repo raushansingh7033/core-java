@@ -21,6 +21,6 @@ Method overriding allows a subclass to provide a specific implementation of a me
 
 rules :
 1. method name must be same for both parent and child classes
- 2. access modifier of child method must not restrictive than parent class method
- 3. private , final and static methods cannot be overridden
+2. access modifier of child method must not restrictive than parent class method
+3. private , final and static methods cannot be overridden
 there must be IS-A relationship between class(inheritance)
