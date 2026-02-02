@@ -83,39 +83,28 @@ An abstract method has no body and must be overridden in the subclass.
 4️. transient
 
 The transient modifier is used with variables.
-It prevents variables from being serialized.
+It prevents variables from being serialized.  // Serialization is a mechanism of converting the state of an object into a byte stream.
 Transient variables are not saved during serialization.
 
 5️. synchronized
 
 The synchronized modifier is used with methods.
-
 It is used in multithreading.
-
 It allows only one thread to access a method at a time.
-
 It prevents data inconsistency.
 
 6️. native
 
 The native modifier is used with methods.
-
 It indicates that the method is implemented in another language like C or C++.
-
 It is used in system-level programming.
 
 7️. volatile
-
 The volatile modifier is used with variables.
-
 It ensures that the variable value is always read from main memory.
-
 It is mainly used in multithreading to avoid inconsistency.
 
 8️. strictfp
-
 The strictfp modifier is used with classes and methods.
-
 It ensures the same floating-point calculation result on all platforms.
-
 It provides consistency in floating-point operations.
