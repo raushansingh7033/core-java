@@ -1,4 +1,4 @@
-interface is a collection of abstract methods. it is similar to a class but differs in that it doesn't  have any implementation for its methods . all methods decalred in an interface implicitly public , abstract and without body .
+interface is a collection of abstract methods. it is similar to a class but differs in that it doesn't  have any implementation for its methods . all methods declared in an interface implicitly public , abstract and without body .
 additionally interface can contains constants , default methods and static methods . there can be only abstract methods in java interface , not method body
 
 it can have only abstract methods and static fields.

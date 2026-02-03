@@ -55,46 +55,34 @@ volatile
 strictfp
 
 1️. final
-
 The final modifier can be used with variables, methods, and classes.
-
 If a variable is declared final, its value cannot be changed.
-
 If a method is declared final, it cannot be overridden.
-
 If a class is declared final, it cannot be inherited.
 
 2️. static
-
 The static modifier is used to make fields, methods, and classes static.
-
 Static variables are class-level variables.
-
 Static methods can be accessed without creating an object.
-
 Static can be used to create nested classes.
 
 3️. abstract
-
 The abstract modifier is used with classes and methods.
 An abstract class cannot be instantiated (object cannot be created).
 An abstract method has no body and must be overridden in the subclass.
 
 4️. transient
-
 The transient modifier is used with variables.
-It prevents variables from being serialized.  // Serialization is a mechanism of converting the state of an object into a byte stream.
+It prevents variables from being serialized. // Serialization is a mechanism of converting the state of an object into a byte stream.
 Transient variables are not saved during serialization.
 
 5️. synchronized
-
 The synchronized modifier is used with methods.
 It is used in multithreading.
 It allows only one thread to access a method at a time.
 It prevents data inconsistency.
 
 6️. native
-
 The native modifier is used with methods.
 It indicates that the method is implemented in another language like C or C++.
 It is used in system-level programming.

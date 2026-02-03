@@ -8,8 +8,6 @@ abstract class
 a class which is declared using abstract keyword known as abstract class
 an abstract class may or may not have abstract methods. we cannot create object of abstract class
 
-it is used to achieve abstraction but it does not provide 100% abstraction beacause it can have concrete methods
-
 it is used to achieve abstraction but it does not provide 100% abstraction because it can have concrete methods
 
 abstraction class provides partial abstraction and interface provides complete abstraction
@@ -24,5 +22,5 @@ abstraction class provides partial abstraction and interface provides complete a
 - an abstract class can have parameterized constructors and the default constructor is always present in an abstract class
 
 abstract method
-a method that are decalred without any body within an abstract class are called abstract method . the method body will be defined by its subclass
+a method that are declared without any body within an abstract class are called abstract method . the method body will be defined by its subclass
 abstract method can never be final and static

@@ -44,6 +44,7 @@ className variable_name=new ClassName()
 method is similar to a function defined in other programming languages.
 method describes behavior of an object. a method is collection of statements that are grouped together to perform operation.
 
+syntax 
 return-type methodName(arg1,arg2....argn)
 {
   // body of method
@@ -57,7 +58,7 @@ return-type methodName(arg1,arg2....argn)
 a constructor is a special type of method is used to initialize objects of a class. constructor are called when an object of class is created
 
 // some key points
-constructor name: a constructor has the name as the class name
+constructor name : a constructor has the name as the class name
 no-return type: constructors do not have return type not even void
 they are automatically called when an object of class is created and do not return any value.
 
