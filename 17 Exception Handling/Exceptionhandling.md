@@ -27,11 +27,13 @@ types
 - the exceptions which are checked by compiler for easily execution of the program at the runtime is called checked exceptions
 - checked exceptions occur at compile time
   eg SQLException IO Exception
+- Checked exceptions happen at compile time when the source code is transformed into an executable code.
 
 2. unChecked exception or runtime exception
 
 - the exceptions which are not checked and it directly handled by JVM is called unchecked exception
 - unchecked exceptions occur at runtime
+- Unchecked exceptions happen at runtime when the executable program starts running.
 
 # handle the exception by using try-catch blocks
 
@@ -98,8 +100,8 @@ throw keyword is used to explicitly throw an exception . an exception is an even
 
 # throws
 
-throws keyword is used in method declrations to indeicate that the method might throw on or more specified exceptions .
-when a method include a throws clause, it means that method is not handling the specified exceptions itself but insted ,it is decalaring that it might throw these exceptions and the responsibility of handling them is delegated to calling code.
+throws keyword is used in method declarations to indicate that the method might throw one or more specified exceptions .
+when a method include a throws clause, it means that method is not handling the specified exceptions itself but instead ,it is declaring that it might throw these exceptions and the responsibility of handling them is delegated to calling code.
 
 void methodName () throws ExceptionTyoe1,ExceptionType2,...{
 // method implemeantion
