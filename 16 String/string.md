@@ -94,7 +94,7 @@ int c= s1.comapreTo(s3)
 23. wap to check whether a string is a palindrome
 24. wap find duplicates characters in string
 25. wap find first repeated character in string
-26. wap to count occurence of char in java string
+26. wap to count occurrence of char in java string
 27. wap to remove duplicates from string
 28. wap convert float to string in java
 
@@ -340,7 +340,7 @@ StringBuffer class
 3. StringBuffer stored in heap memory
 4. mutable StringBuffer object
 5. occupy less memory
-6. StrinBuffer class is Synchronized
+6. StringBuffer class is Synchronized
 7. it is thread safe
 
 # StringBuilder
@@ -349,6 +349,6 @@ StringBuffer class
 2. StringBuilder class is introduced in jdk version 1.5
 3. StringBuilder stored in heap
 4. mutable StringBuilder object
-5. occupy less momory
+5. occupy less memory
 6. StringBuilder class is not synchronized
 7. it is not thread safe

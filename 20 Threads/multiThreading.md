@@ -57,20 +57,19 @@ ref-name.start()
 
 # getName() method
 
-getName() method is part of the thread class and it is used to retrive the name of the thread
+getName() method is part of the thread class and it is used to retrieve the name of the thread
 when we extend thread class we cannot override setName() and getName() functions because they are declared final in thread class
 
 # getId() method
 
 getId() method returns thread identifier. it is a unique positive number.
-it is genreated at the time of thread creation
+it is generated at the time of thread creation
 
 # isAlive()
 
 isAlive() method returns true if the thread (upon which it is called) is still running and got not finished . isAlive() checks if the thread is alive and executing.
 
 # Thread Class Priority
-
 Thread class provides a way to create and manage threads . threads are executed with a certain and the priority is used by thread scheduler to determine the order in which threads are scheduled to run . the Thread class assigns priorities using integer values ranging from Thread.MIN_PRIORITY(which is 1) to Thread.MAX_PRIORITY(which is 10), with Thread.NORM_PRIORITY being the default priority
 
 Thread class priorities:
@@ -160,7 +159,7 @@ inside the shutdown() method, you can include any cleanup or state -saving opera
 # Daemon Thread
 
 - Daemon Thread runs in the background and provides support to the other threads present in the applications. Dameon Thread in java is known as the background thread as they run continuously in the background until the application terminates , the daemon threads in java designed to support the application's used threads
-- Daemon Thread in java is a low-priority thread that performs background operation such as garbage collection, finalizer ,Action listeners , signal disptaches,etc
+- Daemon Thread in java is a low-priority thread that performs background operation such as garbage collection, finalizer ,Action listeners , signal dispatches,etc
   Daemon thread is a service provider thread that helps the user thread . its life is at the mercy of user threads . when all user threads expire , jvm immediately terminates this thread.
   In simple words, we can say that it provides services to user threads for background-supporting tasks.
   methods:
