@@ -53,11 +53,33 @@ nextLine() is a method in the java Scanner class that returns a line of text tha
 # BufferedWriter class
 
 BufferedWriter class is a part of the java.io package and it is used for efficient writing of characters to a file
-writes text to a character output stream , buffering characters so as to provide for the efficient writing of single charcters , arrays and strings
+writes text to a character output stream , buffering characters so as to provide for the efficient writing of single characters , arrays and strings
 the buffer size may be specified or the default size may be accepted. the default is large for most purposes .
 
 // BufferedWriter (Writer Obj)
 creates a buffered character-output stream that uses a default-size output buffer
 BufferedWriter(Writer obj,int size):
-creates a bufferd character output stream that uses an output buffer of the given size.
+creates a buffered character output stream that uses an output buffer of the given size.
 example
+
+// BufferedReader class
+BufferedReader class is used to read the text from a character based input stream. it can be used to read data line by line by readLine() method.
+//constructor
+BufferedReader(Reader obj)
+creates a buffered character-input stream uses a default-size input buffer
+BufferedReader(Reader Obj,int size):
+Creates a buffered character-input stream that uses an input buffer of the specified size.
+
+
+
+# PrintWriter class  
+PrintWriter class is a part of the java.lang package which is used for writing formatted text to a file.
+it is an extension of the writer class and provides convient methods for writing various data types in a human readable format.
+
+PrintWriter is a class used any form of data eg . int, float ,double string or object in the form of text either on the console or in a file in java.
+
+example
+int a=97
+
+
+//method

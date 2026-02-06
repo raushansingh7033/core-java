@@ -44,7 +44,7 @@ try and catch both are java keywords and used for exception handling. the try bl
 multiple catch blocks to handle different types of exceptions that may be thrown in a try block. Each catch block is associated with a specific exception type.
 
 or
-A try block can have multiple catch blocks . multiple catch blocs are used to catch different type of executions
+A try block can have multiple catch blocks . multiple catch blocks are used to catch different type of executions
 
 # Pipe Symbol(|)
 
@@ -109,7 +109,7 @@ void methodName () throws ExceptionTyoe1,ExceptionType2,...{
 
 # toString()
 
-toString() method is standaard method of the throwable class,which is the base class for all exceptions . the toString() method returns a string representation of the object and it will print class name of the exception and detailed message
+toString() method is standard method of the throwable class,which is the base class for all exceptions . the toString() method returns a string representation of the object and it will print class name of the exception and detailed message
 
 # getMessage()
 
@@ -119,4 +119,4 @@ example
 # printStackTrace()
 
 printStackTrace()
-printStacktrace() method is a part of the throwable class, which is the base class for all the exceptions . it is used to print the stack trace of the exception to the standard error stram(typically that console). the stack trace includes information about the call hierarchy that led to the point where the exception was thrown
+printStacktrace() method is a part of the throwable class, which is the base class for all the exceptions . it is used to print the stack trace of the exception to the standard error stream(typically that console). the stack trace includes information about the call hierarchy that led to the point where the exception was thrown

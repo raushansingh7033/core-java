@@ -2,7 +2,7 @@ A String is an object that represents a sequence of characters. the string class
 Strings are immutable meaning their values cannot be changed once they created when you modify a string a new String object is created
 
 String is an object that represents sequnce of characters in java .
-string is representing by string class which is locatd into java.lang package string ojects are immutable that means once a string object is created it cannot be changed
+string is representing by string class which is located into java.lang package string objects are immutable that means once a string object is created it cannot be changed
 
 there are two way to create object in string
 
@@ -12,7 +12,7 @@ there are two way to create object in string
 2. using new keyword
    we can create a new string object using new operator that allocated memory for the object
 
-Note : Each time we create a string litral,jvm checks the string pool first if the string literal already exists in the pool a refrence to the pool instance is returned
+Note : Each time we create a string litral,jvm checks the string pool first if the string literal already exists in the pool a reference to the pool instance is returned
 if string does not exist in the pool a new string object is created and is placed in the pool
 string objects are stored in special memory area known as string constant pool inside the heap memory area
 
