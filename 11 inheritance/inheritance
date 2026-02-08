@@ -27,3 +27,4 @@ multilevel inheritance refers ti a situation where a class extends another class
 
 Hierarchical Inheritance
 When a class is extended by two or more classes then it is called hierarchical inheritance
+

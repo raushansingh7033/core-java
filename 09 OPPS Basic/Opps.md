@@ -22,7 +22,8 @@ it defines the structure and behavior of objects that will be instantiated from 
 a class can have only public and default (no modifier) access specifier
 it can be either abstract final or normal class
 it must have the class keyword
-it may optionally extend only one parent class. by Default , it extend object class
+it may optionally extend only one parent class. by Default , it extend 
+object class
 
 syntax
 class class_name{

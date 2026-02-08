@@ -12,7 +12,7 @@ there are two way to create object in string
 2. using new keyword
    we can create a new string object using new operator that allocated memory for the object
 
-Note : Each time we create a string litral,jvm checks the string pool first if the string literal already exists in the pool a reference to the pool instance is returned
+Note : Each time we create a string literal,jvm checks the string pool first if the string literal already exists in the pool a reference to the pool instance is returned
 if string does not exist in the pool a new string object is created and is placed in the pool
 string objects are stored in special memory area known as string constant pool inside the heap memory area
 
