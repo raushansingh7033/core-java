@@ -4,9 +4,7 @@ They limit the access of class, constructor, data member, and method in other cl
 There are four access modifiers in Java:
 
 public
-
 private
-
 protected
 
 default (package-private)
@@ -17,23 +15,17 @@ The public access modifier is used to control the visibility of classes, methods
 When a member is declared as public, it can be accessed from any class, whether in the same package or different package.
 
 2️. private
-
 The private access modifier is used to control the visibility of class members (fields, methods, nested classes) within the same class.
 When a member is declared as private, it can only be accessed inside the same class.
 It cannot be accessed from outside the class, even in the same package.
 
 3️. protected
-
 The protected access modifier is accessible:
-
 within the same class
-
 within the same package
-
 outside the package only through inheritance (subclass)
 
 4️. default (package-private)
-
 When no access modifier is specified for a class, method, or data member, it is called the default access modifier.
 If we do not specify any access modifier, it is treated as default.
 It is accessible only within the same package and cannot be accessed from outside the package.

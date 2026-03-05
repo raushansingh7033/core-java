@@ -74,7 +74,7 @@ Creates a buffered character-input stream that uses an input buffer of the speci
 
 # PrintWriter class  
 PrintWriter class is a part of the java.lang package which is used for writing formatted text to a file.
-it is an extension of the writer class and provides convient methods for writing various data types in a human readable format.
+it is an extension of the writer class and provides convenient methods for writing various data types in a human readable format.
 
 PrintWriter is a class used any form of data eg . int, float ,double string or object in the form of text either on the console or in a file in java.
 
