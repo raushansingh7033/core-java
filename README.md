@@ -1,4 +1,4 @@
-## JAVA 8 Features
+# JAVA 8 Features
 
 ### JAVA 8 : default & static Methods in interface
 
